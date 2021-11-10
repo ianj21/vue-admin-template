@@ -8,8 +8,8 @@
 
 ### 代码仓库
 
-* ts版本：https://gitee.com/ianj/vue-admin-template
-* js版本：https://gitee.com/ianj/element-admin-template
+* ant版本：https://gitee.com/ianj/ant-admin-template
+* js版本：https://gitee.com/ianj/element-plus-admin-template
 
 
 
