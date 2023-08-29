@@ -64,9 +64,6 @@ orderCount.value = 2000;
 
 <template>
   <div class="dashboard-container">
-    <!-- github角标 -->
-    <github-corner class="github-corner" />
-
     <!-- 用户信息 -->
     <el-row class="mb-8">
       <el-card class="w-full">
@@ -79,33 +76,9 @@ orderCount.value = 2000;
             <span class="ml-[10px] text-[16px]">
               {{ userStore.nickname }}
             </span>
-          </div>
-
-          <div class="leading-[40px]">
-            {{ greetings }}
-          </div>
-
-          <div class="space-x-2 flex items-center justify-end">
-            <el-link
-              target="_blank"
-              type="danger"
-              href="https://blog.csdn.net/u013737132/article/details/130191394"
-              >💥官方从零到一文档</el-link
-            >
-            <el-divider direction="vertical" />
-            <el-link
-              target="_blank"
-              type="success"
-              href="https://gitee.com/youlaiorg"
-              >Gitee</el-link
-            >
-            <el-divider direction="vertical" />
-            <el-link
-              target="_blank"
-              type="primary"
-              href="https://github.com/youlaitech"
-              >GitHub
-            </el-link>
+            <span class="ml-[10px] text-[16px]">
+              {{ greetings }}
+            </span>
           </div>
         </div>
       </el-card>
